@@ -17,7 +17,7 @@ def solve_part_01(data):
     print(len(new_molecules))
 
 
-def solve_patye_02(data):
+def solve_part_02(data):
 
     replacements, molecule = data.split('\n\n')
     replacements = [line.split(' => ') for line in replacements.split('\n')]
@@ -40,5 +40,5 @@ if __name__ == '__main__':
 
     data = open(0).read()
     solve_part_01(data)
-    solve_patye_02(data)
+    solve_part_02(data)
     
